@@ -6,7 +6,7 @@ The quantitative results of **OOD relighting on "CatSmall"** are shown as follow
 
 |  | PSNR | SSIM | LPIPS | Training time | Inference Time | Hardware |
 | ---------------  | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |
-|NRHints    | 24.14    | 0.9101 | 0.1265 | 16 hours | 150 seconds per frame | four NVIDIA V100 GPUs |
+|NRHints    | 24.14    | 0.9101 | 0.1265 | 16 hours | 150 seconds per frame | four NVIDIA RTX 4090 GPUs |
 | Ours    | **25.17** | **0.9297** | **0.1135** |  40 minutes | 0.05 second per frame | a single NVIDIA RTX 3090 GPU |
 
 Visualizations of several testing illuminations are shown below. As shown in the figure, NRHints fails to infer the inherent lighting logic, such as ignoring shadows (light#1) or highlights (light#3), and tends to produce over-smoothing surfaces (light#2).
