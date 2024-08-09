@@ -4,7 +4,7 @@ This repository contains tables and figures relevant to the discussion on OpenRe
 
 The quantitative results of **OOD relighting on "CatSmall"** are shown as follows. The training time and inference time are calculated based on their specific hardware.
 
-|  | PSNR | SSIM | LPIPS | Training time | Inference Time | Hardware |
+|  | PSNR | SSIM | LPIPS | Training time | Inference time | Hardware |
 | ---------------  | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |
 |NRHints    | 24.14    | 0.9101 | 0.1265 | 16 hours | 150 seconds per frame | four NVIDIA RTX 4090 GPUs |
 | Ours    | **25.17** | **0.9297** | **0.1135** |  40 minutes | 0.05 second per frame | a single NVIDIA RTX 3090 GPU |
